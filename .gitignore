@@ -1,0 +1,9 @@
+node_modules/
+reports/
+blob-report/
+playwright/.cache/
+.env
+.env.*
+!.env.example
+Environment Variables.txt
+Steps to repeat for each user story.txt

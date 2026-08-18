@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "productName": "Test Automation Program",
+  "productId": "portfolio-product",
+  "teen": false,
+  "type": "Program",
+  "programId": 1,
+  "programCode": "qa-demo",
+  "programName": "Test Automation Program",
+  "startDate": "Apr 10, 2025",
+  "refundDate": "May 10, 2025",
+  "externalUrl": "https://example.com",
+  "terms": "https://example.com/terms",
+  "prices": [
+    {
+      "active": true,
+      "baseAmount": 500,
+      "type": "one-time",
+      "upfrontDiscount": true,
+      "upfrontDiscountAmount": 100,
+      "allowCoupons": true,
+      "couponDiscount": 50
+    },
+    {
+      "active": true,
+      "baseAmount": 500,
+      "type": "recurring",
+      "upfrontDiscount": false,
+      "upfrontDiscountAmount": 0,
+      "allowCoupons": true,
+      "couponDiscount": 50,
+      "numberOfInstallments": 5
+    }
+  ]
+}

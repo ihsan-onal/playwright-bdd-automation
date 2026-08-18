@@ -1,0 +1,26 @@
+{
+  "name": "playwright-bdd-automation",
+  "version": "1.0.0",
+  "description": "Playwright and Cucumber BDD automation framework for an enrollment and checkout workflow.",
+  "type": "module",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "test:tag": "npx cucumber-js --tags @sep23",
+    "test:smoke": "npx cucumber-js --tags @smoke",
+    "test:dry": "npx cucumber-js --dry-run",
+    "report:open:mac": "open reports/cucumber-report.html",
+    "report:open:windows": "start reports/cucumber-report.html"
+  },
+  "keywords": ["qa", "playwright", "cucumber", "bdd", "test-automation", "javascript", "page-object-model"],
+  "author": "Ihsan Onal",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.7.4"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^16.5.0"
+  }
+}
